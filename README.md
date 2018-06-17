@@ -5,7 +5,8 @@ include more parsing and formalization to act as a guide.
 
 https://frdcsa.org/frdcsa/minor/nlu-mf
 
-```%% To hear Mass on all Sundays and on Holydays of obligation.
+```
+%% To hear Mass on all Sundays and on Holydays of obligation.
 sentence('catechismOfStPopePiusX_TheBook',sentenceIdFn(1935),'To hear Mass on all Sundays and on Holydays of obligation.').
 hasFormalization('catechismOfStPopePiusX_TheBook',sentenceFn(1935),
                  [
@@ -15,4 +16,5 @@ hasFormalization('catechismOfStPopePiusX_TheBook',sentenceFn(1935),
 				  on(Date,hearMass(Christian)))),
 		  equals(Precept1,precept1),
 		  isa(precept1,preceptOfTheChurch)
-		 ]).```
+		 ]).
+```
